@@ -17,7 +17,7 @@ spec:
         app: pages
     spec:
       containers:
-        - image: ezeemrh/pages:db
+        - image: azeemrh/pages:db
           name: pages
           ports:
             - containerPort: 8080
